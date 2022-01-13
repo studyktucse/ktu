@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#intable{margin-left:60px;font-size:12px;border-right:1px solid #2c2b2b;padding-right:40px;margin-bottom:50px;margin-top:80px;overflow:hidden;width:150px;}
+#menumain{color:#888888;margin-left:00px;padding-left:50px;background-color:black;width:0px;height:800px;overflow:hidden;transition:1s;margin-top:150px;position:fixed;}
+#tab1 {border-collapse:collapse;width:1366px;background-color:#f4f7f6;}
+#menhovr:hover{background-color:white; transition:0.2s;}
+#menhovr{font-size:13px;}
+#menuicon{animation-name:menulight;animation-duration:3s;background-color:black;transition: 0.2s;}
+#menubox:hover #menuicon{background-color:red;}
+#vidframe{display:inline-block;margin-left:20px;}
+#thumbs{height:75px; width:140px;border:1px solid white;margin-bottom:3px;display: grid;
+overflow:hidden;}
+#thumbs:hover{border:1px solid black;}
+#cardshadow{box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0,0.15);}
+#cardshadow:hover{box-shadow: 0 2px 2px 0 rgba(0,0,0,0.07), 0 1px 1px 0 rgba(0,0,0,0.09);}
+@keyframes menulight {from {background-color: red;}to {background-color: yellow;}}
+#lifront{margin-top:4px;color:black;display:inline-block;width:70px;}
+#liback{margin-top:4px;color:black;display:inline-block;width:330px;}
+#licover:hover #lifront{color:white;}
+#licover:hover #liback{color:white;}
+#licover:hover {background-color:black;}
+#sylth{text-align:left; font-weight:normal;padding-right:10px;}
+</style>
+</head>
+
+
+<body style="margin:0;width:1366px;height:1000px;background-color:#e9f2f2;user-select:none;font-family:Helvetica;">
+
+<!------------------------TOP BAR TABLE STARTS HERE----------------------------------->
+
+<script>
+
+function menuopen()
+{document.getElementById('menumain').style.width="1200px";}
+
+function menuclose()
+{document.getElementById('menumain').style.width="0px";}
+   
+
+</script>
+
+
+
+<div style="position:fixed;">
+<table id="tab1">
+
+
+
+<table id="tab1">
+<tr style="height:73px;"><th id="menubox" style="width:120px;border-right:1px solid #dddede;border-left:1px solid #dddede;" onclick="menuopen()">
+<table style="margin-left:16px;"><tr><th>
+
+<table style="border-collapse:separate;border-spacing: 1px;">
+<tr><th id="menuicon" style="width:14px;height:1px;"></th></tr>
+<tr><th id="menuicon" style="width:14px;height:1px;"></th></tr>
+<tr><th id="menuicon" style="width:14px;height:1px;"></th></tr>
+</table>
+
+</th>
+<th style="padding-top:2px;">
+MENU
+</th>
+</tr>
+</table>
+
+
+
+<th width="920px"><img style="padding-top:5px;" src="tit.jpg"></th><th style="background-color:#49c5b6;color:white;border-bottom:1px solid #dddede;">CSE EXCLUSIVE SITE</th></tr>
+</table>
+
+
+
+<table id="tab1">
+<tr style="height:73px;border-top:0px;"><th style="border-top:0px;width:80px;color:#f4f7f6;border:1px solid #dddede;">n</th><th id="menhovr" onclick="location='homedesk.html'" style="border-top:0px;width:120px;border:1px solid #dddede;">HOME</th><th id="menhovr" onclick="location='notedesk.html'" style="border-top:0px;width:120px;border:1px solid #dddede;">NOTES</th><th id="menhovr" onclick="location='syllabusdesk.html'" style="border-top:0px;width:120px;border:1px solid #dddede;">SYLLABUS</th><th id="menhovr" onclick="location='vtdesk.html'" style="border-top:0px;width:160px;border:1px solid #dddede;">VIDEO TUTORIALS</th><th id="menhovr" onclick="location='https://app.ktu.edu.in/login.htm'" style="border-top:0px;width:120px;border:1px solid #dddede;">KTU-login</th><th id="menhovr" onclick="location='https://ktu.edu.in/eu/res/viewExamStudentResults.htm'" style="border-top:0px;width:120px;border:1px solid #dddede;">RESULTS</th></tr>
+</table>
+
+
+</table>
+
+
+<marquee style="position:fixed;padding-top:3px;background-color:black;color:white;font-size:12px;box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Postponement of the B.Tech S4 Supplementary July 2021 Examinations scheduled from 31.08.2021 onwards - Reg:
+It is notified to the attention of those concerned that the B.Tech S4 supplementary (including PTDC) (2015 scheme) July 2021 Examinations commencing from 31.08.2021, Tuesday onwards have been postponed and it will be conducted along with B.Tech S4 Regular 2019 scheme Examinations. The revised slot will be published soon. </marquee>
+</div>
+
+<div id='menumain'>
+<table><tr><th><table id='intable'><tr><th>NOTES</th></tr><tr><th>S3</th></tr><tr><th>S4</th></tr><tr><th>S5</th></tr><tr><th>S6</th></tr><tr><th>S7</th></tr><tr><th>S8</th></tr></table></th><th><table id='intable'><tr><th>SYLLABUS</th></tr><tr><th>S3</th></tr><tr><th>S4</th></tr><tr><th>S5</th></tr><tr><th>S6</th></tr><tr><th>S7</th></tr><tr><th>S8</th></tr></table></th><th><table id='intable' ><tr><th>VIDEOS</th></tr><tr><th>S3</th></tr><tr><th>S4</th></tr><tr><th>S5</th></tr><tr><th>S6</th></tr><tr><th>S7</th></tr><tr><th>S8</th></tr></table></th><th><table id='intable'><tr><th>QUE PAPERS</th></tr><tr><th>S3</th></tr><tr><th>S4</th></tr><tr><th>S5</th></tr><tr><th>S6</th></tr><tr><th>S7</th></tr><tr><th>S8</th></tr></table></th><th><table id="intable" style="padding-top:50px;border-right:none;padding-right:10px;"><tr><th>CGPA</th></tr><tr><th>sgpa sem 1</th></tr><tr><th>sgpa sem 2</th></tr><tr><th>sgpa sem 3</th></tr><tr><th>sgpa sem 4</th></tr><tr><th>sgpa sem 5</th></tr><tr><th>sgpa sem 6</th></tr><tr><th>sgpa sem 7</th></tr><tr><th style="padding-top:50px;" onclick="menuclose()">close</th></tr></table></th></tr></table></div>
+
+
+
+<!------------------------TOP BAR TABLE ENDS HERE----------------------------------->
+<!------------------------CONTENT DIV STARTS HERE----------------------------------->
+<div style="width:1366px;padding-top:175px;">
+
+
+
+<!------------------------------------------->
+<div>
+</div><img style="padding-top:50px;" src="syllabus.jpg"></div>
+
+
+<!--------------------------LIST TABLE DIV STARTS------------------------------------>
+<div style="padding-left:60px;">
+
+<table id="sylist">
+
+<!------------------------------SYL S3 STARTS------------------------------>
+<tr><th id="sylth">
+<ul>
+
+<li><span id="licover"> 
+<div id="lifront">MAT203</div>
+<div id="liback">Discrete Mathematical Structures</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST201</div>
+<div id="liback">Data Structures</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST203</div>
+<div id="liback">Logic System Design</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST205</div>
+<div id="liback">Object Oriented Programming Using Java</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">EST200</div>
+<div id="liback">Design And Engineering</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">HUT200</div>
+<div id="liback">Professional Ethics</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">MCN201</div>
+<div id="liback">Sustainable Engineering</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSL201</div>
+<div id="liback">Data Structures Lab</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSL203</div>
+<div id="liback">Object Oriented Programming Lab (In Java)</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">S3</div>
+<div id="liback">Remedial/Minor/Honors Course - (VAC)</div>
+</span></li>
+</th><th style="height:60px;font-size:100px;color:white;font-weight:normal;padding-right:80px;">S3</th>
+<!------------------------------SYL S3 ENDS------------------------------>
+
+
+<!------------------------------SYL S4 STARTS------------------------------>
+
+<th id="sylth">
+<ul>
+
+<li><span id="licover"> 
+<div id="lifront">MAT206</div>
+<div id="liback">Graph Theory</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST202</div>
+<div id="liback">Computer Organisation And Architecture</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST204</div>
+<div id="liback">Database Management Systems</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST206</div>
+<div id="liback">Operating Systems</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">EST200</div>
+<div id="liback">Design And Engineering</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">HUT200</div>
+<div id="liback">Professional Ethics</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">MCN202</div>
+<div id="liback">Constitution Of India</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSL202</div>
+<div id="liback">Digital Lab</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSL204</div>
+<div id="liback">Operating Systems Lab</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">S4</div>
+<div id="liback">Remedial/Minor/Honors Course - (VAC)</div>
+</span></li>
+</th><th style="font-size:100px;color:white;broder-left:1px solid white; font-weight:normal;">S4</th></tr>
+<!------------------------------SYL S4 ENDS------------------------------>
+
+<!------------------------------SYL S5 STARTS------------------------------>
+
+<tr><th id="sylth">
+<ul>
+
+<li><span id="licover"> 
+<div id="lifront">CST301</div>
+<div id="liback">Formal Languages And Automata Theory</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST303</div>
+<div id="liback">Computer Networks</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST305</div>
+<div id="liback">System Software</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST307</div>
+<div id="liback">Microprocessors And Microcontrollers</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST309</div>
+<div id="liback">Management Of Software Systems</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">MCN301</div>
+<div id="liback">Disaster Management</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSL331</div>
+<div id="liback">System Software And Microprocessors Lab</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSL333</div>
+<div id="liback">Database Management Systems Lab</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">S5</div>
+<div id="liback">Remedial/Minor/Honors Course - (VAC)</div>
+</span></li>
+
+
+</th><th style="font-size:100px;color:white;broder-left:1px solid white; font-weight:normal;padding-right:80px;">S5</th>
+<!------------------------------SYL S5 ENDS------------------------------>
+
+
+<!------------------------------SYL S6 STARTS------------------------------>
+
+<th id="sylth">
+<ul>
+
+<li><span id="licover"> 
+<div id="lifront">CST302</div>
+<div id="liback">Compiler Design</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST304</div>
+<div id="liback">Computer Graphics And Image Processing</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST306</div>
+<div id="liback">Algorithm Analysis And Design</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">Elective</div>
+<div id="liback">Elective-I</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">HUT300</div>
+<div id="liback">Industrial Economics And Foreign Trade</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CST308</div>
+<div id="liback">Comprehensive Course Work</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSL332</div>
+<div id="liback">Networking Lab</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSD334</div>
+<div id="liback">Miniproject</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">S6</div>
+<div id="liback">Remedial/Minor/Honors Course - (VAC)</div>
+</span></li>
+
+
+</th><th style="font-size:100px;color:white;broder-left:1px solid white; font-weight:normal;">S6</th></tr>
+<!------------------------------SYL S6 ENDS------------------------------>
+
+
+<!------------------------------SYL S7 STARTS------------------------------>
+<tr>
+<th id="sylth">
+<ul>
+
+<li><span id="licover"> 
+<div id="lifront">CST401</div>
+<div id="liback">Artificial Intelligence</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">Elective</div>
+<div id="liback">Elective-II</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">Elective</div>
+<div id="liback">Elective-Open</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">MCN401</div>
+<div id="liback">Industrial Safety Engineering</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSL411</div>
+<div id="liback">Compiler Lab</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSQ413</div>
+<div id="liback">Seminar</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSD415</div>
+<div id="liback">Project Phase I</div>
+</span></li>
+
+
+<li><span id="licover"> 
+<div id="lifront">S7</div>
+<div id="liback">Remedial/Minor/Honors Course - (VAC)</div>
+</span></li>
+
+
+</th><th style="font-size:100px;color:white;broder-left:1px solid white; font-weight:normal;padding-right:80px;">S7</th>
+<!------------------------------SYL S7 ENDS------------------------------>
+
+
+<!------------------------------SYL S8 STARTS------------------------------>
+
+<th id="sylth">
+<ul>
+
+<li><span id="licover"> 
+<div id="lifront">CST402</div>
+<div id="liback">Distributed Computing</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">Elective</div>
+<div id="liback">Elective-III</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">Elective</div>
+<div id="liback">Elective-IV</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">Elective</div>
+<div id="liback">Elective-V</div>
+</span></li>
+
+
+
+<li><span id="licover"> 
+<div id="lifront">CSL411</div>
+<div id="liback">Comprehensive Course Viva</div>
+</span></li>
+
+<li><span id="licover"> 
+<div id="lifront">CSD416</div>
+<div id="liback">Project Phase II</div>
+</span></li>
+
+
+<li><span id="licover"> 
+<div id="lifront">S8</div>
+<div id="liback">Remedial/Minor/Honors Course - (VAC)</div>
+</span></li>
+
+
+</th><th style="font-size:100px;color:white;broder-left:1px solid white; font-weight:normal;">S8</th></tr>
+<!------------------------------SYL S8 ENDS------------------------------>
+
+
+
+
+
+</table>
+</ul>
+
+</div>
+
+</div>
+
+<!--------------------------LIST TABLE DIV ENDS------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!------------------------CONTENT DIV ENDS HERE----------------------------------->
+
+
+
+</body>
+</html>
